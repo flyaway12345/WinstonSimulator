@@ -6,17 +6,23 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { WinstonComponent } from './body/winston/winston.component';
+import { BaseComponent } from './body/winston/base/base.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    WinstonComponent
+    WinstonComponent,
+    BaseComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot([
+      {path: '', component: BaseComponent},
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
