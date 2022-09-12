@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
+Feature Board Link: https://trello.com/invite/b/8RjtEbnd/8d9f1fafa4eb707c87a2c3fce44857ca/winston-simulator
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
