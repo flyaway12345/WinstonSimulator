@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  showPanel: boolean = false;
+
+  onClick(){
+    if(this.showPanel == false){
+      this.showPanel = true;
+    }else{
+      this.showPanel = false;
+    }
+  }
+
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  
 }

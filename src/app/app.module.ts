@@ -8,14 +8,15 @@ import { BodyComponent } from './body/body.component';
 import { WinstonComponent } from './body/winston/winston.component';
 import { BaseComponent } from './body/winston/base/base.component';
 import { RouterModule } from '@angular/router';
-
+import { PanelComponent } from './body/panel/panel.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BodyComponent,
     WinstonComponent,
-    BaseComponent
+    BaseComponent,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
